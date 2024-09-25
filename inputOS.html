@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://unpkg.com/@phosphor-icons/web"></script>
+        <title>TailwindCSS</title>
+    </head>
+
+    <body class="h-screen flex items-center justify-center bg-zinc-900">
+
+        <!-- Positioning -->
+
+        <div class="flex flex-col gap-4">
+            <div class="bg-zinc-500/10 w-[500px] h-[320px] rounded-[40px] text-zinc-300 p-6 flex flex-col justify-between relative">
+                <div class="flex flex-col gap-3">
+                    <h2 class="text-2xl tracking-tighter font-medium">Osgilb</h2>
+                    <div class="flex flex-col gap-4">
+                        <div class="flex flex-col gap-2">
+                            <p class="leading-relaxed"> This project was created using <span class="hover:underline text-blue-200"><a href="https://tailwindcss.com/" target="_blank">TailwindCSS</a></span> and to showcase my skills with front-end technologies, as well as for future reference and inspiration for similar work.</p>
+                            <p class="leading-relaxed">The input field is designed with smooth transitions, where the placeholder text floats up as you start typing.</p>
+                        </div>
+                        <p class="italic">Feel free to explore and leave feedback!</p>
+                    </div>
+                </div>
+                <div class="text-zinc-300/70 text-sm"> ~ September 25, 2024 </div>
+
+                <div class="absolute right-4 bottom-4 bg-zinc-300/10 h-14 w-14 rounded-full flex items-center justify-center hover:bg-zinc-300/20 cursor-pointer">
+                    <i class="ph-fill ph-trophy text-lg"></i>
+                </div>
+            </div>
+            <div class="text-zinc-300 px-4">
+                <form action="#" method="get" class="relative w-full h-fit">
+                    <input class="w-full h-16 pt-4 bg-zinc-500/10 rounded-3xl px-6 outline-none peer placeholder-transparent text-lg" type="text" id="flname" placeholder="Full name" required>
+                    <label class="absolute text-zinc-300/60  text-sm left-6 top-4 -translate-y-1/2 peer-placeholder-shown:text-lg peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:text-zinc-300/60 transition-all peer-focus:text-sm peer-focus:-translate-y-1/2 peer-focus:top-4" for="flname">Full name</label>
+                </form>
+            </div>
+            <div class="text-zinc-300 px-4">
+                <form action="#" method="get" class="relative w-full h-fit">
+                    <input class="w-full h-16 pt-4 bg-zinc-500/10 rounded-3xl px-6 outline-none peer placeholder-transparent text-lg" type="email" id="email" placeholder="Email" required>
+                    <label class="absolute text-zinc-300/60  text-sm left-6 top-4 -translate-y-1/2 peer-placeholder-shown:text-lg peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:text-zinc-300/60 transition-all peer-focus:text-sm peer-focus:-translate-y-1/2 peer-focus:top-4" for="email">Email</label>
+                    <button type="submit" class="absolute right-3 bottom-2 peer-placeholder-shown:text-transparent peer-focus:text-zinc-300/50 transition-all">
+                        <i class="ph ph-arrow-circle-right text-3xl"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+
+        <!-- Top left corner -->
+
+        <!-- Top right corner -->
+
+        <!-- Bottom left corner -->
+
+        <!-- Bottom right corner -->
+
+        <!-- Span top edge -->
+
+        <!-- Span left edge -->
+
+        <!-- Span right edge -->
+
+        <!-- Span bottom edge -->
+
+        <!-- Display Classes -->
+
+        <!-- Z-Index -->
+
+        <!-- Floats -->
+    </body>
+</html>
+
+<!-- Position Classes
+      static	    position: static;
+      fixed	      position: fixed;
+      absolute	  position: absolute;
+      relative	  position: relative;
+      sticky	    position: sticky;
+    -->
+
+<!-- Display Classes
+      block	            display: block;
+      inline-block	    display: inline-block;
+      inline	          display: inline;
+      flex	            display: flex;
+      inline-flex	      display: inline-flex;
+      table	            display: table;
+      grid	            display: grid;
+      inline-grid	      display: inline-grid;
+      contents	        display: contents;
+      list-item	        display: list-item;
+      hidden	          display: none;
+    -->
+
+<!-- Z-Index
+      z-0	    z-index: 0;
+      z-10	  z-index: 10;
+      z-20	  z-index: 20;
+      z-30	  z-index: 30;
+      z-40	  z-index: 40;
+      z-50	  z-index: 50;
+      z-auto	z-index: auto;
+    -->
+
+<!-- Float
+      float-right	  float: right;
+      float-left	  float: left;
+      float-none	  float: none;
+    -->

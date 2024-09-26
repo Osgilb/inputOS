@@ -25,4 +25,4 @@ Implement more advanced animations or further refine the transition effects.
 Conclusion
 This input field may seem simple, but it was a great way to practice working with Tailwind CSS and transitions. Looking back at it in the future, I’ll remember how even small projects like this contribute to growth as a developer.
 
-Created: September 25, 2024 #
+# Created: September 25, 2024
